@@ -6,8 +6,8 @@ export default function Contact() {
     <>
       <div className={styles.stack}>
         <h3 className={styles.heading}>Contact</h3>
-        <Social />
-        <a style={{ display: "block"}} href="mailto:test@test.jp">
+        <Social iconSize="30px" />
+        <a style={{ display: "block" }} href="mailto:test@test.jp">
           test@test.jp
         </a>
       </div>

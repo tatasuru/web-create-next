@@ -1,3 +1,4 @@
+import Meta from "@/components/meta";
 import Container from "@/components/container";
 import Main from "@/components/main";
 import Postbody from "@/components/post-body";
@@ -9,6 +10,13 @@ import Eyecatch from "images/about.jpg";
 export default function About() {
   return (
     <Container>
+      <Meta
+        pageTitle='About'
+        pageDesc='About Development Activities'
+        pageImg= { Eyecatch.src }
+        pageImgW= { Eyecatch.width }
+        pageImgH= { Eyecatch.height }
+      />
       <Main title="About" subtitle="About Development Activities" />
       <figure>
         <Image
