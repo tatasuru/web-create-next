@@ -8,7 +8,7 @@ export default function Nav() {
         <ul className={styles.list}>
           <li>
             <Link href="/">
-              <a>TOP</a>
+              <a>変更しました</a>
             </Link>
           </li>
           <li>
