@@ -1,20 +1,20 @@
-import { client } from 'lib/api'
+// import { client } from 'lib/api'
 
 
 export default function Schedule() {
   return <h1>記事タイトル</h1>
 }
 
-export async function getStaticProps() {
+// export async function getStaticProps() {
 
-  const resPromise = client.get({
-    endpoint: "blogs",
-  });
+//   const resPromise = client.get({
+//     endpoint: "blogs",
+//   });
 
 
-  console.log(resPromise)
+//   console.log(resPromise)
 
-  return {
-    props: {}
-  };
-}
+//   return {
+//     props: {}
+//   };
+// }
