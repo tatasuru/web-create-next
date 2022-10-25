@@ -1,6 +1,6 @@
 import styles from "styles/main.module.scss";
-import Image from "next/image";
-import cube from "images/cube.jpg";
+// import Image from "next/image";
+// import cube from "images/cube.jpg";
 
 export default function Main({ title, subtitle, imageOn = false }) {
   return (
@@ -11,13 +11,13 @@ export default function Main({ title, subtitle, imageOn = false }) {
       </div>
       {imageOn && (
         <figure className={styles.image}>
-          <Image
-            src={cube}
-            alt=""
-            layout="responsive"
-            sizes="{min-width: 1152px} 576px, {min-width: 768px} 50vw, 100vw"
-            priority
-            placeholder="blur"
+          <img
+            // src={cube}
+            // alt=""
+            // layout="responsive"
+            // sizes="{min-width: 1152px} 576px, {min-width: 768px} 50vw, 100vw"
+            // priority
+            // placeholder="blur"
           />
         </figure>
       )}

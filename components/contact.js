@@ -11,6 +11,12 @@ export default function Contact() {
           test@test.jp
         </a>
       </div>
+      <form action="https://ssgform.com/s/7HMCnlLoW7WT" method="post">
+        <input type="text" name="お名前" required="required" />
+        <input type="email" name="メールアドレス" required="required" />
+        <textarea name="お問い合わせ内容" required="required"></textarea>
+        <button type="submit">送信する</button>
+      </form>
     </>
   );
 }
