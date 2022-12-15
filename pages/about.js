@@ -4,10 +4,13 @@ import Main from "@/components/main";
 import Postbody from "@/components/post-body";
 import Contact from "@/components/contact";
 import { Twocolumn, TwocolumnMain, TwocolumnSidebar } from "@/components/two-column";
-import Image from "next/image";
+// import Image from "next/image";
 import Eyecatch from "images/about.jpg";
 
 export default function About() {
+
+
+
   return (
     <Container>
       <Meta
@@ -19,13 +22,13 @@ export default function About() {
       />
       <Main title="About" subtitle="About Development Activities" />
       <figure>
-        <Image
-        src={Eyecatch}
-        alt=""
-        layout="responsive"
-        sizes="{min-width: 1152px} 1152px, 100vw"
-        priority
-        placeholder="blur"
+        <img
+        // src={Eyecatch}
+        // alt=""
+        // layout="responsive"
+        // sizes="{min-width: 1152px} 1152px, 100vw"
+        // priority
+        // placeholder="blur"
         />
       </figure>
       <Twocolumn>
