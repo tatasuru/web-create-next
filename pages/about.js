@@ -8,6 +8,9 @@ import { Twocolumn, TwocolumnMain, TwocolumnSidebar } from "@/components/two-col
 import Eyecatch from "images/about.jpg";
 
 export default function About() {
+
+
+
   return (
     <Container>
       <Meta
